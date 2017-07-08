@@ -1,0 +1,16 @@
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.datosInscripcion.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.addCourseForm.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.ventanaAltaCurso.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.formularioMatricula.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.introducirDNI.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.introducirEnrollmentId.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.ventanaLogin.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.Properties.Resources.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.ventanaAdministrador.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.ventanaAlumnoNoEncontrado.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.ventanaAsignarProfesor.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.ventanaCursoImpartido.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.ventanaEmpleado.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.ventanaSeleccionaCurso.resources
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\ISWGestAcaApp\obj\Debug\ISWGestAcaApp.csproj.GenerateResource.Cache

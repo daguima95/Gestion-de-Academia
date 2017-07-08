@@ -1,0 +1,13 @@
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\TestPersistenciaApp\bin\Debug\TestPersistenciaApp.exe.config
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\TestPersistenciaApp\bin\Debug\TestPersistenciaApp.exe
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\TestPersistenciaApp\bin\Debug\TestPersistenciaApp.pdb
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\TestPersistenciaApp\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\TestPersistenciaApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\TestPersistenciaApp\bin\Debug\GestAcaLib.dll
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\TestPersistenciaApp\bin\Debug\GestAcaLib.pdb
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\TestPersistenciaApp\bin\Debug\GestAcaLib.dll.config
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\TestPersistenciaApp\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\TestPersistenciaApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\TestPersistenciaApp\obj\Debug\TestPersistenciaApp.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\TestPersistenciaApp\obj\Debug\TestPersistenciaApp.exe
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\TestPersistenciaApp\obj\Debug\TestPersistenciaApp.pdb

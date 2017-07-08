@@ -1,0 +1,10 @@
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaLib\bin\Debug\GestAcaLib.dll.config
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaLib\bin\Debug\GestAcaLib.dll
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaLib\bin\Debug\GestAcaLib.pdb
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaLib\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaLib\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaLib\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaLib\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaLib\obj\Debug\GestAcaLib.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaLib\obj\Debug\GestAcaLib.dll
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaLib\obj\Debug\GestAcaLib.pdb

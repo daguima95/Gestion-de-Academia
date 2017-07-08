@@ -1,0 +1,6 @@
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaModelLib\bin\Debug\GestAcaModelLib.dll.config
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaModelLib\bin\Debug\GestAcaModelLib.dll
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaModelLib\bin\Debug\GestAcaModelLib.pdb
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaModelLib\obj\Debug\GestAcaModelLib.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaModelLib\obj\Debug\GestAcaModelLib.dll
+C:\Users\Usuario\Source\Repos\Gestion-de-Academia\ProyectoSoftwareApp\GestAcaModelLib\obj\Debug\GestAcaModelLib.pdb
