@@ -1,0 +1,122 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ProyectoSoftwareApp", "ProyectoSoftwareApp\ProyectoSoftwareApp.modelproj", "{4691502C-1778-4875-B28D-294D5569601F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{DE680261-7121-44B2-AD6F-818DF9E86829}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "DiagramaDeCasos", "DiagramaDeCasos\DiagramaDeCasos.modelproj", "{7DD3B185-F924-4605-B954-5C7B971DA5A5}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "DiagramaDeClases", "DiagramaDeClases\DiagramaDeClases.modelproj", "{1CCE02B8-4AA9-4FA9-9AC5-8738392C2DA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A4EBBB95-EB66-4CF5-8596-7F659B946AED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{0B804A9B-DE2A-4431-8265-B04955D465FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestAcaLib", "GestAcaLib\GestAcaLib.csproj", "{9668DF58-765F-400C-848E-705114A4CDA1}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "GestAcaModel", "GestAcaModel\GestAcaModel.modelproj", "{DE17CD00-E0B9-4715-9FA7-025502C75D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestAcaModelLib", "GestAcaModelLib\GestAcaModelLib.csproj", "{EE3A119E-2569-490D-8F59-8AAE90DA8B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPersistenciaApp", "TestPersistenciaApp\TestPersistenciaApp.csproj", "{7C4E7B99-DDC3-447F-AAC5-FDBAFC8F1FF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogicTest", "BusinessLogicTest", "{CBF10CE8-3769-43B3-A925-BF376E77E5D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicTestApp", "BusinessLogicTest\BusinessLogicTestApp.csproj", "{E12BB409-EBFD-4BA1-B57D-3BBF1A07998A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISWGestAcaApp", "ISWGestAcaApp\ISWGestAcaApp.csproj", "{F2FDAF9B-E765-4D22-BAE8-B0BC9D0E5812}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4691502C-1778-4875-B28D-294D5569601F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4691502C-1778-4875-B28D-294D5569601F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4691502C-1778-4875-B28D-294D5569601F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4691502C-1778-4875-B28D-294D5569601F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD3B185-F924-4605-B954-5C7B971DA5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD3B185-F924-4605-B954-5C7B971DA5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD3B185-F924-4605-B954-5C7B971DA5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD3B185-F924-4605-B954-5C7B971DA5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCE02B8-4AA9-4FA9-9AC5-8738392C2DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCE02B8-4AA9-4FA9-9AC5-8738392C2DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCE02B8-4AA9-4FA9-9AC5-8738392C2DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCE02B8-4AA9-4FA9-9AC5-8738392C2DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9668DF58-765F-400C-848E-705114A4CDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9668DF58-765F-400C-848E-705114A4CDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9668DF58-765F-400C-848E-705114A4CDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9668DF58-765F-400C-848E-705114A4CDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE17CD00-E0B9-4715-9FA7-025502C75D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE17CD00-E0B9-4715-9FA7-025502C75D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE17CD00-E0B9-4715-9FA7-025502C75D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE17CD00-E0B9-4715-9FA7-025502C75D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE3A119E-2569-490D-8F59-8AAE90DA8B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3A119E-2569-490D-8F59-8AAE90DA8B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3A119E-2569-490D-8F59-8AAE90DA8B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3A119E-2569-490D-8F59-8AAE90DA8B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4E7B99-DDC3-447F-AAC5-FDBAFC8F1FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4E7B99-DDC3-447F-AAC5-FDBAFC8F1FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4E7B99-DDC3-447F-AAC5-FDBAFC8F1FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4E7B99-DDC3-447F-AAC5-FDBAFC8F1FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12BB409-EBFD-4BA1-B57D-3BBF1A07998A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12BB409-EBFD-4BA1-B57D-3BBF1A07998A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12BB409-EBFD-4BA1-B57D-3BBF1A07998A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12BB409-EBFD-4BA1-B57D-3BBF1A07998A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2FDAF9B-E765-4D22-BAE8-B0BC9D0E5812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FDAF9B-E765-4D22-BAE8-B0BC9D0E5812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2FDAF9B-E765-4D22-BAE8-B0BC9D0E5812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2FDAF9B-E765-4D22-BAE8-B0BC9D0E5812}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9668DF58-765F-400C-848E-705114A4CDA1} = {DE680261-7121-44B2-AD6F-818DF9E86829}
+		{7C4E7B99-DDC3-447F-AAC5-FDBAFC8F1FF8} = {0B804A9B-DE2A-4431-8265-B04955D465FD}
+		{CBF10CE8-3769-43B3-A925-BF376E77E5D2} = {0B804A9B-DE2A-4431-8265-B04955D465FD}
+		{E12BB409-EBFD-4BA1-B57D-3BBF1A07998A} = {CBF10CE8-3769-43B3-A925-BF376E77E5D2}
+		{F2FDAF9B-E765-4D22-BAE8-B0BC9D0E5812} = {A4EBBB95-EB66-4CF5-8596-7F659B946AED}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://2016-upv-isw-3ac1-mapache.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ProyectoSoftwareApp\\ProyectoSoftwareApp.modelproj
+		SccProjectName1 = ProyectoSoftwareApp
+		SccLocalPath1 = ProyectoSoftwareApp
+		SccProjectUniqueName2 = DiagramaDeCasos\\DiagramaDeCasos.modelproj
+		SccProjectName2 = DiagramaDeCasos
+		SccLocalPath2 = DiagramaDeCasos
+		SccProjectUniqueName3 = DiagramaDeClases\\DiagramaDeClases.modelproj
+		SccProjectName3 = DiagramaDeClases
+		SccLocalPath3 = DiagramaDeClases
+		SccProjectUniqueName4 = GestAcaLib\\GestAcaLib.csproj
+		SccProjectTopLevelParentUniqueName4 = ProyectoSoftwareApp.sln
+		SccProjectName4 = GestAcaLib
+		SccLocalPath4 = GestAcaLib
+		SccProjectUniqueName5 = GestAcaModel\\GestAcaModel.modelproj
+		SccProjectName5 = GestAcaModel
+		SccLocalPath5 = GestAcaModel
+		SccProjectUniqueName6 = GestAcaModelLib\\GestAcaModelLib.csproj
+		SccProjectName6 = GestAcaModelLib
+		SccLocalPath6 = GestAcaModelLib
+		SccProjectUniqueName7 = TestPersistenciaApp\\TestPersistenciaApp.csproj
+		SccProjectTopLevelParentUniqueName7 = ProyectoSoftwareApp.sln
+		SccProjectName7 = TestPersistenciaApp
+		SccLocalPath7 = TestPersistenciaApp
+		SccProjectUniqueName8 = BusinessLogicTest\\BusinessLogicTestApp.csproj
+		SccProjectTopLevelParentUniqueName8 = ProyectoSoftwareApp.sln
+		SccProjectName8 = BusinessLogicTest
+		SccLocalPath8 = BusinessLogicTest
+		SccProjectUniqueName9 = ISWGestAcaApp\\ISWGestAcaApp.csproj
+		SccProjectTopLevelParentUniqueName9 = ProyectoSoftwareApp.sln
+		SccProjectName9 = ISWGestAcaApp
+		SccLocalPath9 = ISWGestAcaApp
+	EndGlobalSection
+EndGlobal

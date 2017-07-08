@@ -1,0 +1,1016 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="03458637-bbfc-4c18-9576-e502c054e839"
+  name="DiagramaDeCasos" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="31e0ed77-d391-421d-beaf-19c59cbb1601"
+        name="Alumno"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="66a0c85b-5c83-4e33-bec0-201070b0f087"
+            isDerived="false"
+            sourceEndRoleName="Alumno"
+            targetEndRoleName="Inscribir en un curso"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e8762c96-b799-4376-8ba1-e68a55099f0b"
+              LastKnownName="Inscribir en un curso"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="39f8aa58-91e8-480f-80a1-889b567c3c29"
+                  name="Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8b325029-b1f0-4616-8120-76a071a4a1b6"
+                  name="Inscribir en un curso"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b8c5c4f9-b162-4fec-91f8-5dc3ca0ba65c"
+            isDerived="false"
+            sourceEndRoleName="Alumno"
+            targetEndRoleName="Pagar matrícula"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5fe4328c-24c7-47c0-ab84-9c1c6754ad48"
+              LastKnownName="Pagar matricula"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3b3667e6-882f-454c-979d-dbb4978d2196"
+                  name="Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5fef4ad3-4742-4180-9043-def3ab2b5e23"
+                  name="Pagar matrícula"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="04a73936-5741-48a5-8f1b-7b685c01e5cc"
+            isDerived="false"
+            sourceEndRoleName="Alumno"
+            targetEndRoleName="Pagar clase agena"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="bd6af2e0-5ff3-46b3-a2f1-74bb390022f6"
+              LastKnownName="Pagar clase ajena"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="241f208f-4961-4fea-a88e-74439be71542"
+                  name="Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0b7c094f-f84f-427f-b3b8-1099d0f31431"
+                  name="Pagar clase agena"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e8762c96-b799-4376-8ba1-e68a55099f0b"
+        name="Inscribir en un curso"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="357cfb1a-f7f9-48bf-ad04-ccc3dea2209a">
+            <useCaseMoniker
+              Id="9bb6f27f-adea-498d-969c-bda6d2f7ec94"
+              LastKnownName="Comprobar cupo de alumnos"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5fe4328c-24c7-47c0-ab84-9c1c6754ad48"
+        name="Pagar matricula"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bd6af2e0-5ff3-46b3-a2f1-74bb390022f6"
+        name="Pagar clase ajena"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d01c56e4-fdb6-4ef0-b0ff-c02bd40f1110"
+        name="Realizar pago completo"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="63246584-57dd-42e2-a5ce-6896cc16e3e3"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="5fe4328c-24c7-47c0-ab84-9c1c6754ad48"
+              LastKnownName="Pagar matricula"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9bb6f27f-adea-498d-969c-bda6d2f7ec94"
+        name="Comprobar cupo de alumnos"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="61d9d992-5423-459c-92a8-793d4a81b2b9"
+        name="Realizar pago mensual"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="2bad2cd6-d0e7-41b1-8851-0372be9de273"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="5fe4328c-24c7-47c0-ab84-9c1c6754ad48"
+              LastKnownName="Pagar matricula"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="908cbf26-25a5-4302-bec6-f4d93faaf036"
+        name="Profesor"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="4bc975d2-9111-459d-864a-4ad5e3144fbc"
+            isDerived="false"
+            sourceEndRoleName="Profesor"
+            targetEndRoleName="Imparte curso"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="59d278ee-3ba6-4283-909d-d963784e996c"
+              LastKnownName="Imparte curso"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0ae8a111-8a57-4f4a-8a6c-74179ecb2336"
+                  name="Profesor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2b26cf73-10eb-4645-abc1-97b2b5a28d15"
+                  name="Imparte curso"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b90c1cd8-2f9e-4f04-bcce-0d70bc8684cd"
+            isDerived="false"
+            sourceEndRoleName="Profesor"
+            targetEndRoleName="Pasar lista"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c19b0344-f7e8-499c-812d-a5e5ec6c45e2"
+              LastKnownName="Pasar lista"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dca91871-c492-4005-8195-50ac591f249d"
+                  name="Profesor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1b615456-7f2e-4374-9df8-b1ea69e8f7e6"
+                  name="Pasar lista"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="59d278ee-3ba6-4283-909d-d963784e996c"
+        name="Imparte curso"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="a9902ad9-4d54-416d-82d6-0f03b4d1b104">
+            <useCaseMoniker
+              Id="7fa1c5cc-969d-4434-8176-d14c05543492"
+              LastKnownName="Comprobar numero maximo de cursos"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c19b0344-f7e8-499c-812d-a5e5ec6c45e2"
+        name="Pasar lista"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="dd89e5fa-239c-4a0f-897c-7203a3529550"
+        name="Impartir curso externo"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="2ab0493e-af7a-4301-9bbd-ebb83afdbb29"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="59d278ee-3ba6-4283-909d-d963784e996c"
+              LastKnownName="Imparte curso"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7fa1c5cc-969d-4434-8176-d14c05543492"
+        name="Comprobar numero maximo de cursos"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="fab7cf7f-3192-4563-b5c1-439f6d83c0d5"
+        name="Administrador"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="ed03e788-51fb-45fd-a823-907ff950d55f"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Asignar local para impartir curso"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="474e844d-508d-41e8-9486-979c3a0d8e5e"
+              LastKnownName="Asignar local para impartir curso"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ac71bc2c-77a5-44a1-901a-db0480b19509"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8cab10f4-527b-48d3-b248-b6b03b68ce9f"
+                  name="Asignar local para impartir curso"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b1dfbede-ab86-4c01-aba7-788831a34c08"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Modificar local con mayor capacidad"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="dc8a57f4-db7c-4d38-a3c8-341efaf7af91"
+              LastKnownName="Cambiar local a un aula mayor"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dc2269d6-9abe-487d-8571-dbe86c5f38b0"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7cf87bd3-9d68-4ec5-a637-ff2128b8d164"
+                  name="Modificar local con mayor capacidad"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="daf99414-b792-42e3-94ef-36f1979cf572"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Crear curso"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1eb42817-3ce8-4daa-87bb-c769e9205747"
+              LastKnownName="Crear curso"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="23b1ca2c-4503-4a90-9966-7df6b48b48d0"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="51738a09-356a-445a-ab3c-21d7cffe9dfb"
+                  name="Crear curso"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="677d398c-8739-4bc6-80f6-654a92ac7951"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Leer informacion del curso"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c4f86033-593d-4218-a3e0-0563b90c8ebf"
+              LastKnownName="Leer informacion del curso"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f2d8b19f-01ab-42e1-9c1f-854fb27a9b5c"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="47a5d3a7-32d1-49be-8971-61057a02b0a7"
+                  name="Leer informacion del curso"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c0c064af-3995-49b1-aee0-7dcf77cf3d9e"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Eliminar curso"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e32700b1-91b8-4e55-bc85-8beb0c59a647"
+              LastKnownName="Eliminar curso"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a2917143-f037-4dd7-9c42-a9337905dcc8"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="60c2602d-15cb-4114-b40a-65d18d34b57a"
+                  name="Eliminar curso"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="afc4911a-708c-46d8-95b6-da2a9d4ee8a8"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Crear profesor"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="dace0276-4e63-4b6b-a36b-23c6934fe67a"
+              LastKnownName="Crear profesor"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="419bdded-0e7a-494d-a825-9ecc2ca67ad6"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="855adb09-a93a-4a2e-9cd0-ef3633733b21"
+                  name="Crear profesor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="93b6eb55-40db-4b74-9f05-7d64414eb5a5"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Leer informacion del profesor"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4657a2c0-9c17-4adb-adff-2aa72f62d28b"
+              LastKnownName="Leer informacion del profesor"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c804f5ce-3910-4b40-bbb8-82e8c8dee087"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f9182b6a-083b-4c1b-a6f7-82e5d49bfefc"
+                  name="Leer informacion del profesor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cefa795a-4d86-4e65-9fca-001568a792f9"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Eliminar profesor"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="012ce6ad-2d5c-40c4-91f0-746a1a725a00"
+              LastKnownName="Eliminar profesor"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="864a2c60-adf5-4297-be9c-87a085f960a4"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d9dc933c-9177-4191-a979-30834146f372"
+                  name="Eliminar profesor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="540bb933-a218-46e3-bc9b-2d47c54217bc"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Crear local"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="92aa0362-42ef-495c-8a53-aac13d8faa07"
+              LastKnownName="Crear local"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d612cb18-e92e-42a5-930b-c4f967d19774"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1669e148-91b3-4bc7-934b-1f5fef92db92"
+                  name="Crear local"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cdc266a4-4d9f-4a2e-b394-32a839a20efb"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Leer informacion del local"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="26e77b0f-bd5f-4e24-888e-1eead4494d2f"
+              LastKnownName="Leer informacion del local"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fafa8234-43da-4455-9b13-3058c24a083f"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="960acb77-3213-4a9f-95f9-b5179d04e642"
+                  name="Leer informacion del local"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d40272d3-ce68-4eb1-b66f-9f14e828f1f8"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Eliminar  local"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="026ba60e-4e41-4f7e-9528-a09b0488b92b"
+              LastKnownName="Eliminar  local"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="220c79e0-cc60-4712-8772-72b0b5f95964"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1ad3d195-417a-4a58-b6eb-550b57b0b0ba"
+                  name="Eliminar  local"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="474e844d-508d-41e8-9486-979c3a0d8e5e"
+        name="Asignar local para impartir curso"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="7efc64f9-040b-4bcd-b665-7a8905810203">
+            <useCaseMoniker
+              Id="ad39e7e9-c7cd-4482-9440-30af9737241a"
+              LastKnownName="Comprobar capacidad maxima"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </include>
+          <include
+            Id="6c384151-145e-43d8-bde0-9611563b7f2e">
+            <useCaseMoniker
+              Id="c50f1287-846f-4e10-933f-e160bfe26fcf"
+              LastKnownName="Comprobar si la matricula es buena"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </include>
+          <include
+            Id="3d8dac7d-cd30-4aa5-8453-6887f00c8163">
+            <useCaseMoniker
+              Id="be453e68-0c6a-4cce-b751-70ceadf5551f"
+              LastKnownName="Comprobar horarios asignados"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="dc8a57f4-db7c-4d38-a3c8-341efaf7af91"
+        name="Cambiar local a un aula mayor"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="75410425-4924-470d-9160-085127eb5be9">
+            <useCaseMoniker
+              Id="c50f1287-846f-4e10-933f-e160bfe26fcf"
+              LastKnownName="Comprobar si la matricula es buena"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </include>
+          <include
+            Id="015ec049-529d-4e82-9447-fd1e65355512">
+            <useCaseMoniker
+              Id="be453e68-0c6a-4cce-b751-70ceadf5551f"
+              LastKnownName="Comprobar horarios asignados"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </include>
+          <include
+            Id="7fc77ed6-3f8c-4731-813a-3b00a6c17904">
+            <useCaseMoniker
+              Id="ad39e7e9-c7cd-4482-9440-30af9737241a"
+              LastKnownName="Comprobar capacidad maxima"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1eb42817-3ce8-4daa-87bb-c769e9205747"
+        name="Crear curso"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c4f86033-593d-4218-a3e0-0563b90c8ebf"
+        name="Leer informacion del curso"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c68d81d1-7639-42be-a294-21b011a333ef"
+        name="Actualizar informacion del curso"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="83536e09-bedf-4b26-b3d1-18fcabf239de">
+            <useCaseMoniker
+              Id="c4f86033-593d-4218-a3e0-0563b90c8ebf"
+              LastKnownName="Leer informacion del curso"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e32700b1-91b8-4e55-bc85-8beb0c59a647"
+        name="Eliminar curso"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="dace0276-4e63-4b6b-a36b-23c6934fe67a"
+        name="Crear profesor"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4657a2c0-9c17-4adb-adff-2aa72f62d28b"
+        name="Leer informacion del profesor"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="012ce6ad-2d5c-40c4-91f0-746a1a725a00"
+        name="Eliminar profesor"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9812d202-26ee-4ecd-ba48-fded75c48976"
+        name="Actualizar informacion del profesor"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="fed42548-5a01-4cbc-8c5a-4199a30a2f7f">
+            <useCaseMoniker
+              Id="4657a2c0-9c17-4adb-adff-2aa72f62d28b"
+              LastKnownName="Leer informacion del profesor"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="92aa0362-42ef-495c-8a53-aac13d8faa07"
+        name="Crear local"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="26e77b0f-bd5f-4e24-888e-1eead4494d2f"
+        name="Leer informacion del local"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="026ba60e-4e41-4f7e-9528-a09b0488b92b"
+        name="Eliminar  local"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ce071733-8ebf-4a7a-a8df-8d15f279227d"
+        name="Actualizar informacion del local"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="dd19c1a9-21fb-4396-898a-bb1a8577d099">
+            <useCaseMoniker
+              Id="26e77b0f-bd5f-4e24-888e-1eead4494d2f"
+              LastKnownName="Leer informacion del local"
+              LastKnownLocation="DiagramaDeCasos.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ad39e7e9-c7cd-4482-9440-30af9737241a"
+        name="Comprobar capacidad maxima"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c50f1287-846f-4e10-933f-e160bfe26fcf"
+        name="Comprobar si la matricula es buena"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="be453e68-0c6a-4cce-b751-70ceadf5551f"
+        name="Comprobar horarios asignados"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

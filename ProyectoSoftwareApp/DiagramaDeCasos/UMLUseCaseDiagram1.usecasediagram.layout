@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 17.125" name="UMLUseCaseDiagram1">
+  <useCaseModelRootMoniker Id="6fee92e7-fbb8-45ef-83e9-fe37d952d51f" />
+  <nestedChildShapes>
+    <actorShape Id="b6b5aab2-5d0b-42b8-b14c-c64f875bfaf8" absoluteBounds="0.5, 1.5, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="1ef75cb5-cf4c-4f92-8907-f2535ce3b3aa" LastKnownName="Alumno" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="e146d563-e802-4778-bfd3-fcb71cf7aad3" absoluteBounds="2.5, 0.75, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="f3e682b5-52ae-479f-aec1-95e6a133081e" LastKnownName="Inscribir en un curso" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1 : 1.66666666666667); (2.58397485283108 : 1.13867504905631)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="9ff0eaab-badc-441e-916a-766ea5e150bc" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="b6b5aab2-5d0b-42b8-b14c-c64f875bfaf8" />
+        <useCaseShapeMoniker Id="e146d563-e802-4778-bfd3-fcb71cf7aad3" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="2ed96166-9e24-4b12-b215-88046a644761" absoluteBounds="2.5, 2.25, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="3b7ee21c-8065-43ca-8c09-43d1a676cbea" LastKnownName="Pagar matricula" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1 : 1.83333333333333); (2.58397485283108 : 2.36132495094369)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="27f81ca8-7c52-41df-a022-79a1c618ece9" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="b6b5aab2-5d0b-42b8-b14c-c64f875bfaf8" />
+        <useCaseShapeMoniker Id="2ed96166-9e24-4b12-b215-88046a644761" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="9194c364-823b-497c-9196-7bec87482966" absoluteBounds="1.5, 3.25, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="f739643e-9482-4e5e-91d8-afe501332f21" LastKnownName="Pagar clase ajena" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(0.928571428571429 : 2); (1.83183180150092 : 3.26456452210129)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="053a63aa-a60e-4586-b06b-911e1335723e" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="b6b5aab2-5d0b-42b8-b14c-c64f875bfaf8" />
+        <useCaseShapeMoniker Id="9194c364-823b-497c-9196-7bec87482966" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="64902faa-4972-4677-8d6b-2e156d6d1358" absoluteBounds="4.125, 2.375, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="64b8a1af-46cb-4bb5-913e-660a33d547d7" LastKnownName="Realizar pago completo" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseGeneralizationConnector edgePoints="[(4.13519864967926 : 2.6746459461045); (3.47788950436097 : 2.57352146220938)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110">
+      <generalizationMoniker Id="d467105f-ca71-47c4-a207-053ccc9d10b5" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="64902faa-4972-4677-8d6b-2e156d6d1358" />
+        <useCaseShapeMoniker Id="2ed96166-9e24-4b12-b215-88046a644761" />
+      </nodes>
+    </useCaseGeneralizationConnector>
+    <useCaseShape Id="65f86b2b-618f-463d-9132-40fa6ddf3b1f" absoluteBounds="4.75, 1.125, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="21a1aeab-265b-4db8-8c1d-263b9ed59bdb" LastKnownName="Comprobar cupo de alumnos" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.45690577431013 : 1.10153461651336); (4.77060094364581 : 1.39346687636573)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="57ba3023-73d6-4c42-95bc-aa47919d254c" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="e146d563-e802-4778-bfd3-fcb71cf7aad3" />
+        <useCaseShapeMoniker Id="65f86b2b-618f-463d-9132-40fa6ddf3b1f" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="4268f7eb-7c87-4ad3-bce5-3e75fe964aae" absoluteBounds="3.25, 3.125, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="46d378ea-15c9-4dd0-9d1f-f2031da15474" LastKnownName="Realizar pago mensual" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseGeneralizationConnector edgePoints="[(3.50486938018372 : 3.17315917357829); (3.1755617207942 : 2.73408229439226)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110">
+      <generalizationMoniker Id="73281766-d458-40fd-a256-4eb00902b29f" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="4268f7eb-7c87-4ad3-bce5-3e75fe964aae" />
+        <useCaseShapeMoniker Id="2ed96166-9e24-4b12-b215-88046a644761" />
+      </nodes>
+    </useCaseGeneralizationConnector>
+    <actorShape Id="37adcf62-0204-4731-b5cc-f5775808f472" absoluteBounds="0.875, 5.375, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="fc0e2968-f4c3-4899-b85e-d913092c536c" LastKnownName="Profesor" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="d5610549-d108-487d-a94c-0336d1442677" absoluteBounds="2.5, 5.125, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="36026464-5a97-4386-8b3c-05fd7c03f7db" LastKnownName="Imparte curso" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.375 : 5.59166666666667); (2.51688253019938 : 5.43941566264008)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="0bd6cea5-a6fe-4019-b1ee-72e1cfdf9514" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="37adcf62-0204-4731-b5cc-f5775808f472" />
+        <useCaseShapeMoniker Id="d5610549-d108-487d-a94c-0336d1442677" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="b3c01a12-6d52-484a-a8b0-d3808f34d756" absoluteBounds="1.25, 6.75, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="b5aad3a7-58cf-4eb5-8b88-4c630b6c833b" LastKnownName="Pasar lista" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.23863636363636 : 5.875); (1.63918944820552 : 6.75621678605213)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="091ebe2e-d6b9-4999-82a3-05ac1827d79c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="37adcf62-0204-4731-b5cc-f5775808f472" />
+        <useCaseShapeMoniker Id="b3c01a12-6d52-484a-a8b0-d3808f34d756" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="26733749-0abd-4e6b-8d05-a21685b287d3" absoluteBounds="4.75, 4.75, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="b7bdae26-76cf-49a6-8857-b1aaaf9a4e1c" LastKnownName="Impartir curso externo" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseGeneralizationConnector edgePoints="[(4.75539826882306 : 5.17995574790855); (3.48809353009198 : 5.32076738554534)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110">
+      <generalizationMoniker Id="9785b7ff-f550-4797-8eb3-e47d08f339ad" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="26733749-0abd-4e6b-8d05-a21685b287d3" />
+        <useCaseShapeMoniker Id="d5610549-d108-487d-a94c-0336d1442677" />
+      </nodes>
+    </useCaseGeneralizationConnector>
+    <useCaseShape Id="7c4923a3-cddf-403c-932c-f32151e99016" absoluteBounds="4.75, 6.375, 1, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="e859ee12-522a-4fba-9e04-0ee7795bbf06" LastKnownName="Comprobar numero maximo de cursos" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.30815413082906 : 5.5718762502519); (4.84618703126043 : 6.55450838108305)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="f9b6ca69-6ec8-45d1-8559-8fce6fa06206" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="d5610549-d108-487d-a94c-0336d1442677" />
+        <useCaseShapeMoniker Id="7c4923a3-cddf-403c-932c-f32151e99016" />
+      </nodes>
+    </includeConnector>
+    <actorShape Id="41beb9ec-5f82-4718-9c37-a92bdda6400c" absoluteBounds="3.875, 12.625, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="be873401-06c7-4383-8e3d-79fb73805086" LastKnownName="Administrador" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="7ee36547-7c6d-4f58-b477-828092f25dc8" absoluteBounds="0.625, 10.375, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="1a2e6424-d6d1-49a7-bf99-a4019edc6005" LastKnownName="Asignar local para impartir curso" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(3.875 : 12.6979166666667); (1.48850657627491 : 11.0074838248614)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="e509f236-03b9-4225-8bc8-245be319e63d" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="41beb9ec-5f82-4718-9c37-a92bdda6400c" />
+        <useCaseShapeMoniker Id="7ee36547-7c6d-4f58-b477-828092f25dc8" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="337906db-10fe-475d-b600-cce86871d8a4" absoluteBounds="7, 10.25, 1, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="5f4922ee-7e98-46f8-8e86-e1bae4b88a41" LastKnownName="Cambiar local a un aula mayor" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(4.375 : 12.712962962963); (7.09822140332763 : 10.9479120533988)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="11aaca2e-ca9a-4011-bf3c-9fd0c59fb8a8" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="41beb9ec-5f82-4718-9c37-a92bdda6400c" />
+        <useCaseShapeMoniker Id="337906db-10fe-475d-b600-cce86871d8a4" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="7e02ea1b-e2bd-45ba-baf0-0facfbf539f4" absoluteBounds="6.5, 13.625, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="2e54d5d5-d29c-4900-9d2b-ffa4e7812a5c" LastKnownName="Crear curso" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(4.375 : 12.9619565217391); (6.58954739910726 : 13.7322338779503)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="be4cc9d7-b004-4560-b853-bd217ae30d1c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="41beb9ec-5f82-4718-9c37-a92bdda6400c" />
+        <useCaseShapeMoniker Id="7e02ea1b-e2bd-45ba-baf0-0facfbf539f4" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="cb4b99c0-a6dd-4260-80b6-ba2d769e6a21" absoluteBounds="4.125, 14.5, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="885e97c0-2eaa-462f-9be5-fcb9d80f27a0" LastKnownName="Leer informacion del curso" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(4.1875 : 13.125); (4.53285573247491 : 14.5064229298996)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="aeee5444-8e0f-464e-b7b0-112d01d17eb7" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="41beb9ec-5f82-4718-9c37-a92bdda6400c" />
+        <useCaseShapeMoniker Id="cb4b99c0-a6dd-4260-80b6-ba2d769e6a21" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="fa1eb2ad-cd5e-4ae0-bd1f-4e7a5463e1b2" absoluteBounds="5.5, 16.125, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="457f2974-c2d5-4130-85aa-6357b44e700d" LastKnownName="Actualizar informacion del curso" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(5.73208778013426 : 16.1833764674314); (4.89291221986574 : 15.1916235325686)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«extender»">
+      <extendMoniker Id="9d6f7d93-00be-4476-ae1e-e8f4e6b1ebf7" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="fa1eb2ad-cd5e-4ae0-bd1f-4e7a5463e1b2" />
+        <useCaseShapeMoniker Id="cb4b99c0-a6dd-4260-80b6-ba2d769e6a21" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="54e1854d-4e01-47ad-951d-c3c7af07a69f" absoluteBounds="1.125, 13.625, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="65b1da2f-7bf6-45e8-a8c7-429eff259463" LastKnownName="Eliminar curso" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(3.875 : 12.975); (2.01543440472151 : 13.7188262381114)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="22556c75-6064-4ee3-898b-660ef83af0e9" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="41beb9ec-5f82-4718-9c37-a92bdda6400c" />
+        <useCaseShapeMoniker Id="54e1854d-4e01-47ad-951d-c3c7af07a69f" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="4a03cbdd-5ead-489c-bff1-8c32c5f9e655" absoluteBounds="6, 14.125, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="5612ed21-f783-405d-9af2-c46444e53586" LastKnownName="Crear profesor" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(4.375 : 13.0328947368421); (6.18964852781722 : 14.1789885438846)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="7305ea05-a2c6-4c82-a9cb-372034e4e2f7" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="41beb9ec-5f82-4718-9c37-a92bdda6400c" />
+        <useCaseShapeMoniker Id="4a03cbdd-5ead-489c-bff1-8c32c5f9e655" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="c6c3b08d-a8a3-4a84-8af9-cd3a6aac4a55" absoluteBounds="3, 14.5, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="f5a65fb4-c45e-419c-8d5e-130c0e4f9233" LastKnownName="Leer informacion del profesor" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(4.046875 : 13.125); (3.61409566139466 : 14.5098938835371)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="c822b9af-ebcf-4c24-8ac2-9bae860cb5fe" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="41beb9ec-5f82-4718-9c37-a92bdda6400c" />
+        <useCaseShapeMoniker Id="c6c3b08d-a8a3-4a84-8af9-cd3a6aac4a55" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="2a068f21-a815-4a16-9585-dec3a9a06838" absoluteBounds="0.75, 13, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="822093ee-e1b7-472d-8240-f851a5a13bff" LastKnownName="Eliminar profesor" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(3.875 : 12.9076086956522); (1.73380863619842 : 13.1868945257132)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="48a70c13-724f-4d02-88ab-f5dc0e3c2b70" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="41beb9ec-5f82-4718-9c37-a92bdda6400c" />
+        <useCaseShapeMoniker Id="2a068f21-a815-4a16-9585-dec3a9a06838" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="6654c3d6-dbbc-4558-9326-d7837baae803" absoluteBounds="4, 16.125, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="2e7c9c57-be73-4d09-9448-d3035beeb46c" LastKnownName="Actualizar informacion del profesor" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(4.29047091126913 : 16.1595152308123); (3.70952908873087 : 15.2154847691877)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«extender»">
+      <extendMoniker Id="a7d526a9-fcb3-4947-a8e8-f63a9295c8a5" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="6654c3d6-dbbc-4558-9326-d7837baae803" />
+        <useCaseShapeMoniker Id="c6c3b08d-a8a3-4a84-8af9-cd3a6aac4a55" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="63bf6d8d-789a-4124-a1f4-9ab790c16e79" absoluteBounds="5.25, 14.625, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="11808cab-4637-4a52-9c93-7e450981eb73" LastKnownName="Crear local" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(4.328125 : 13.125); (5.56181147652203 : 14.6433833557194)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="37b1b1d2-76a8-4746-ac38-ce42dd1d8730" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="41beb9ec-5f82-4718-9c37-a92bdda6400c" />
+        <useCaseShapeMoniker Id="63bf6d8d-789a-4124-a1f4-9ab790c16e79" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="96f93349-3787-4fbb-9743-d681705d4929" absoluteBounds="2, 14.125, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="4a74464e-24de-483b-9e15-5ab1d0b380b1" LastKnownName="Leer informacion del local" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(3.875 : 13.125); (2.8 : 14.2)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="cd64cbd9-44e3-4580-9716-42f3761d2e65" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="41beb9ec-5f82-4718-9c37-a92bdda6400c" />
+        <useCaseShapeMoniker Id="96f93349-3787-4fbb-9743-d681705d4929" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="3ec00220-259c-400a-9700-b60bef39e356" absoluteBounds="0.5, 12.375, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="ac2f0ac5-4e36-45a5-be5b-5e59f2d17c83" LastKnownName="Eliminar  local" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(3.875 : 12.855); (1.49372031595835 : 12.6644976252767)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="3e70452a-4a72-4188-bfca-dc118db8471c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="41beb9ec-5f82-4718-9c37-a92bdda6400c" />
+        <useCaseShapeMoniker Id="3ec00220-259c-400a-9700-b60bef39e356" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="83e53073-4645-400b-a6d5-f03726f98098" absoluteBounds="0.875, 15.125, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="0914652c-ac85-4d00-a6ef-202ea5c75990" LastKnownName="Actualizar informacion del local" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(1.69743546960489 : 15.2133906936845); (2.17756453039511 : 14.7866093063155)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«extender»">
+      <extendMoniker Id="842db3d7-8a3f-480e-9654-34db2d9d214a" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="83e53073-4645-400b-a6d5-f03726f98098" />
+        <useCaseShapeMoniker Id="96f93349-3787-4fbb-9743-d681705d4929" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="988e2644-4ef3-4fa4-b0ee-e8a5211b871f" absoluteBounds="3.375, 8.125, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="529bc384-ffac-4802-aaae-fcdccaa9f5aa" LastKnownName="Comprobar capacidad maxima" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(1.46286231425867 : 10.4735671974247); (3.53713768574133 : 8.77643280257528)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="12d8426c-54c3-46d3-9508-c7ab157dc088" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="7ee36547-7c6d-4f58-b477-828092f25dc8" />
+        <useCaseShapeMoniker Id="988e2644-4ef3-4fa4-b0ee-e8a5211b871f" />
+      </nodes>
+    </includeConnector>
+    <includeConnector edgePoints="[(7.08839360704235 : 10.4391168318359); (4.26455918133487 : 8.73507881632276)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="8c3e549f-2c5e-47fb-ba4e-e81a7b02a40d" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="337906db-10fe-475d-b600-cce86871d8a4" />
+        <useCaseShapeMoniker Id="988e2644-4ef3-4fa4-b0ee-e8a5211b871f" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="d28e690d-1f0f-49cf-abca-7e18343852c5" absoluteBounds="3.875, 10.875, 1, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="0598d857-677b-47eb-bd0e-c6a6284c554c" LastKnownName="Comprobar si la matricula es buena" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(7.01257074671407 : 10.7849858506572); (4.86242925328593 : 11.2150141493428)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="025ebeee-9872-471e-a16d-0ec224d59a0e" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="337906db-10fe-475d-b600-cce86871d8a4" />
+        <useCaseShapeMoniker Id="d28e690d-1f0f-49cf-abca-7e18343852c5" />
+      </nodes>
+    </includeConnector>
+    <includeConnector edgePoints="[(1.61219559784731 : 10.834322315012); (3.88450344741279 : 11.2276063658984)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="e0973909-13f0-438e-9e69-de6ab150697e" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="7ee36547-7c6d-4f58-b477-828092f25dc8" />
+        <useCaseShapeMoniker Id="d28e690d-1f0f-49cf-abca-7e18343852c5" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="5203f036-a42d-4291-84f7-3cfb1bc9bd3b" absoluteBounds="3.625, 9.5, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="ebf990db-8698-4262-ae5a-8325dd9a2cfa" LastKnownName="Comprobar horarios asignados" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(7.01791361051926 : 10.5714421654954); (4.60107539553122 : 9.98961074336863)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="52c693ad-583c-48bb-9b5a-dc55b561d84e" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="337906db-10fe-475d-b600-cce86871d8a4" />
+        <useCaseShapeMoniker Id="5203f036-a42d-4291-84f7-3cfb1bc9bd3b" />
+      </nodes>
+    </includeConnector>
+    <includeConnector edgePoints="[(1.59100233577065 : 10.6140826520669); (3.65899766422935 : 10.0109173479331)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="3b2d57f1-84ce-478e-a454-a08fab6bd277" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="7ee36547-7c6d-4f58-b477-828092f25dc8" />
+        <useCaseShapeMoniker Id="5203f036-a42d-4291-84f7-3cfb1bc9bd3b" />
+      </nodes>
+    </includeConnector>
+  </nestedChildShapes>
+</useCaseDiagram>
